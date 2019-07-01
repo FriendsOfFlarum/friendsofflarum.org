@@ -3,4 +3,4 @@
   X-XSS-Protection: 1; mode=block
   X-Content-Type-Options: nosniff
   Referrer-Policy: no-referrer-when-downgrade
-  Content-Security-Policy: default-src 'self' data: 'unsafe-inline'; img-src 'self' flagrow.io repo.packagist.org github.com *.githubusercontent.com data:
+  Content-Security-Policy: default-src 'self' data: 'unsafe-inline'; img-src 'self' flagrow.io packagist.org github.com *.githubusercontent.com data:
