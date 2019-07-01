@@ -1,7 +1,7 @@
 # Redirects
 /discord  https://discord.gg/tzDPV47
 /github   https://github.com/FriendsOfFlarum
-/donate   https://opencollective.org/fof
+/donate   https://opencollective.com/fof
 
 # PWA
 /*        /index.html                 200
