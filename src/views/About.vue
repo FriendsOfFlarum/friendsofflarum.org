@@ -59,9 +59,7 @@
           like to step up. A custom logo is underway, we're considering a
           simplistic website and we're pondering about our perspectives of the
           future. That's also the reason we set up a
-          <a href="/discord" target="_blank"
-            >dedicated discord server</a
-          >
+          <a href="/discord" target="_blank">dedicated discord server</a>
           and our own <a href="/donate" target="_blank">Open Collective</a>.
         </p>
         <p>
