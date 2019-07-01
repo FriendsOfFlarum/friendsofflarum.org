@@ -1,9 +1,12 @@
 import Vue from "vue";
 import Router from "vue-router";
-import Home from "./views/Home.vue";
-import About from "./views/About.vue";
-import Members from "./views/Members.vue";
-import NotFound from "./components/NotFound";
+
+const Home = () => import(/* webpackChunkName: "home" */ "./views/Home.vue");
+const About = () => import(/* webpackChunkName: "about" */ "./views/About.vue");
+const Members = () =>
+  import(/* webpackChunkName: "members" */ "./views/Members.vue");
+const NotFound = () =>
+  import(/* webpackChunkName: "not-found" */ "./components/NotFound.vue");
 
 Vue.use(Router);
 
