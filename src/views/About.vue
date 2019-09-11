@@ -78,6 +78,44 @@
           >, May '19
         </p>
       </blockquote>
+      
+      <blockquote>
+        <p>
+          Almost a year in, with 36 extensions and over 36,000 downloads 🙉
+        </p>
+        <p>
+          While our original intent was simply to maintain &amp; revive old extensions,
+          we&#39;ve already created 13 original extensions.
+        </p>
+        <p>
+          We do have a simplistic website (the design of which I stole from the ReFlar website 🙈)
+          which loads our extensions directly from Packagist and orders them by downloads.
+          You can see it in action @
+          <a href="https://friendsofflarum.org" target="_blank">https://friendsofflarum.org</a>.
+        </p>
+        <p>
+          You may have noticed that there haven&#39;t been as many extensions recently,
+          and that is partially because of a lack of commissioned work.
+          We don&#39;t always have the time to be developing extensions,
+          specially as many of us are part of the Flarum team itself
+          (do remember that Friends of Flarum is <strong>not</strong> an official extension group)
+          and have other commitments to family, work, etc.
+        </p>
+        <p>
+          To help us out, please feel free to donate to both, if possible,
+          <a href="https://flarum.org/donate/" target="_blank">Flarum</a> and
+          <a href="https://friendsofflarum.org/donate" target="_blank" >Friends of Flarum</a>.
+          Flarum is powerful because of third party extensions.
+        </p>
+        <p>
+          —
+          <a
+            href="https://discuss.flarum.org/d/16242-friends-of-flarum-the-collaboration-for-maintained-extensions/25"
+            target="_blank"
+            >@datitisev on Flarum Community</a
+          >, Aug '19
+        </p>
+      </blockquote>
 
       <h2 class="is-size-4">Following Our Work</h2>
       <p>
