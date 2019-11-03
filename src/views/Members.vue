@@ -19,8 +19,30 @@
             </a>
 
             <div class="tags">
-              <span class="tag" v-for="role in member.roles" :key="role">
-                {{ role }}
+              <span class="tag" v-if="member.website">
+                <a :href="member.website" target="_blank"
+                  ><icon name="link"
+                /></a>
+              </span>
+
+              <span class="tag">
+                <a :href="`https://github.com/${member.github}`" target="_blank"
+                  ><icon name="brands/github"
+                /></a>
+              </span>
+
+              <span v-if="member.donate">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+
+              <span
+                class="tag"
+                v-for="platform in member.donate"
+                :key="`${member.name}-${platform}`"
+              >
+                <a
+                  :href="donationPlatforms[platform](member.github)"
+                  target="_blank"
+                  ><icon :name="`brands/${platform}`" style="color: #E94429"
+                /></a>
               </span>
             </div>
 
@@ -39,10 +61,16 @@
 
 #Members {
   .member {
-    min-width: 400px;
+    flex-basis: 33%;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
 
     .card {
-      width: 100%;
+      display: inline-block;
+      border-radius: 10px;
+      width: 250px;
     }
   }
 }
@@ -54,7 +82,11 @@ import members from "@/data/members.yml";
 export default {
   name: "Members",
   data: () => ({
-    members: members.filter(e => !e.hide)
+    members: members.filter(e => !e.hide),
+    donationPlatforms: {
+      github: u => `https://github.com/sponsors/${u}`,
+      patreon: u => `https://patreon.com/${u}`
+    }
   })
 };
 </script>

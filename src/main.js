@@ -8,7 +8,9 @@ import VueProgressBar from "vue-progressbar";
 import Icon from "vue-awesome/components/Icon.vue";
 import "./icons";
 
-Vue.use(Buefy);
+Vue.use(Buefy, {
+  defaultIconPack: "fas"
+});
 Vue.use(VueLazyload);
 Vue.use(VueProgressBar, {
   color: "#E0612C",

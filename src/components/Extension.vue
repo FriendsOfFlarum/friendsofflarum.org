@@ -86,7 +86,7 @@ export default {
 
       return authors
         .map(a =>
-          members.find(m => m.name === a.name || m.packagist === a.name)
+          members.find(m => m.name === a.name || a.name.startsWith(m.packagist))
         )
         .filter(Boolean);
     }

@@ -1,10 +1,17 @@
 - name: Daniël
   packagist: Daniël Klabbers
   github: luceos
+  website: https://luceos.com/
+  donate:
+    - github
+    - patreon
 
 - name: David
-  packagist: David Sevilla Martín
+  packagist: David Sevilla
   github: datitisev
+  website: https://datitisev.me/
+  donate:
+    - patreon
 
 - name: Charlie
   packagist: Charlie K
@@ -17,6 +24,7 @@
 - name: Clark
   packagist:  Clark Winkelmann 
   github: clarkwinkelmann
+  website: https://clarkwinkelmann.com/
 
 - name: Sajjad
   packagist: Sajjad Hashemian
