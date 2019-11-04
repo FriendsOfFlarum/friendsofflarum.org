@@ -11,6 +11,7 @@
   github: datitisev
   website: https://datitisev.me/
   donate:
+    - github
     - patreon
 
 - name: Charlie
