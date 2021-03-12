@@ -34,3 +34,8 @@
 - name: Ian
   packagist: Ian Morland
   github: imorland
+
+- name: David W
+  packagist: davwheat
+  github: davwheat
+  website: https://davwheat.dev/
