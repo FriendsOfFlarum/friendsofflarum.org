@@ -3,4 +3,4 @@
   X-XSS-Protection: 1; mode=block
   X-Content-Type-Options: nosniff
   Referrer-Policy: no-referrer-when-downgrade
-  Content-Security-Policy: default-src 'self' data: 'unsafe-inline'; img-src 'self' flagrow.io github.com *.githubusercontent.com data:; connect-src packagist.org repo.packagist.org
+  Content-Security-Policy: default-src 'self' data: 'unsafe-inline'; img-src 'self' flarum-badge-api.davwheat.dev extiverse.com github.com *.githubusercontent.com data:; connect-src packagist.org repo.packagist.org

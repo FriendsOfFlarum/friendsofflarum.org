@@ -2,20 +2,20 @@
   <div class="card">
     <div class="card-content">
       <a
-        :href="`https://flagrow.io/extensions/${info.name}`"
+        :href="`https://extiverse.com/extension/${info.name}`"
         target="_blank"
         rel="noreferrer"
       >
         <div>
-          <img
-            v-lazy="
-              `https://flagrow.io/storage/icons/${
-                info.img ? `fof/${info.img}` : `${info.name.replace('/', '$')}`
-              }.png`
-            "
-            :alt="info.name"
-            class="animated"
-          />
+          <div class="card-image">
+            <img
+              v-lazy="
+                `https://flarum-badge-api.davwheat.dev/v1/ext-icon//${info.name}`
+              "
+              :alt="info.name"
+              class="animated"
+            />
+          </div>
 
           <b-loading :active.sync="loading" :is-full-page="false"></b-loading>
         </div>
