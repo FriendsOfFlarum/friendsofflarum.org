@@ -32,7 +32,7 @@
 
       <p>
         <icon name="download" scale=".75" />
-        {{ info.downloads }}
+        {{ info.downloads.toLocaleString() }}
       </p>
 
       <p class="description" v-if="info.description">
