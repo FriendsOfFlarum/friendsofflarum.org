@@ -1,11 +1,7 @@
-- name: Daniël
-  packagist: Daniël Klabbers
-  github: luceos
-  website: https://luceos.com/
-  donate:
-    - github
-    - patreon
-
+- name: Ian
+  packagist: Ian Morland
+  github: imorland
+  
 - name: David
   packagist: David Sevilla
   github: datitisev
@@ -14,26 +10,10 @@
     - github
     - patreon
 
-- name: Charlie
-  packagist: Charlie K
-  github: KyrneDev
-
-- name: Christian
-  packagist: Christian Lopez
-  github: Ralkage
-
 - name: Clark
   packagist:  Clark Winkelmann 
   github: clarkwinkelmann
   website: https://clarkwinkelmann.com/
-
-- name: Sajjad
-  packagist: Sajjad Hashemian
-  github: sijad
-  
-- name: Ian
-  packagist: Ian Morland
-  github: imorland
 
 - name: David W
   packagist: davwheat
