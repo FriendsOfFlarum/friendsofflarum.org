@@ -19,15 +19,15 @@
     "whatwg-fetch": "^3.0.0"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^3.8.0",
-    "@vue/cli-plugin-eslint": "^3.8.0",
-    "@vue/cli-service": "^3.8.4",
+    "@vue/cli-plugin-babel": "^5.0.8",
+    "@vue/cli-plugin-eslint": "^5.0.8",
+    "@vue/cli-service": "^5.0.8",
     "@vue/eslint-config-prettier": "^4.0.1",
     "json-loader": "^0.5.7",
     "less": "^3.9.0",
-    "less-loader": "^5.0.0",
+    "less-loader": "^11.1.0",
     "node-sass": "^4.13.1",
-    "sass-loader": "^7.1.0",
+    "sass-loader": "^13.2.0",
     "vue-template-compiler": "^2.6.10",
     "yaml-loader": "^0.5.0"
   }
