@@ -4,11 +4,10 @@
   
 - name: David
   packagist: David Sevilla
-  github: datitisev
-  website: https://datitisev.me/
+  github: dsevillamartin
+  website: https://dsevilla.dev/
   donate:
     - github
-    - patreon
 
 - name: Clark
   packagist:  Clark Winkelmann 
